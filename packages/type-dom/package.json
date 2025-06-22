@@ -1,0 +1,8 @@
+{
+  "name": "@frameworks/type-dom",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "name": "type-dom"
+  }
+}

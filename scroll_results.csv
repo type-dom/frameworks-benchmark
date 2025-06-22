@@ -1,0 +1,5 @@
+Framework,Frame Rate (FPS),Main Thread Block Time (ms),Memory Usage (MB)
+solid,NaN,0.00,2.06
+vue,NaN,0.00,2.69
+typedom,NaN,0.00,4.75
+react,NaN,0.00,5.06

@@ -1,0 +1,31 @@
+
+create rows: 0.40 ms
+replace all rows: 0.14 ms
+partial update: 4.12 ms
+select row: 0.02 ms
+swap rows: 0.28 ms
+remove row: 0.88 ms
+create many rows: 0.40 ms
+append rows to large table: 6.80 ms
+clear rows: 0.00 ms
+
+
+create rows: 0.40 ms
+replace all rows: 0.04 ms
+partial update: 5.46 ms
+select row: 0.00 ms
+swap rows: 0.22 ms
+remove row: 0.70 ms
+create many rows: 0.30 ms
+append rows to large table: 6.30 ms
+clear rows: 0.20 ms
+
+create rows: 0.30 ms
+replace all rows: 0.06 ms
+partial update: 5.80 ms
+select row: 0.00 ms
+swap rows: 0.24 ms
+remove row: 0.70 ms
+create many rows: 0.80 ms
+append rows to large table: 7.50 ms
+clear rows: 0.00 ms

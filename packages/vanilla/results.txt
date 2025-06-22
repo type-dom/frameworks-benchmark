@@ -1,0 +1,5 @@
+
+create rows:14.30ms replace all rows:14.80ms partial update:0.50ms select row:0.00ms swap rows:0.00ms remove row:0.00ms create many rows:317.20ms append rows to large table:41.90ms clear rows:20.10ms
+
+
+create rows:14.50ms replace all rows:20.80ms partial update:0.40ms select row:0.00ms swap rows:0.10ms remove row:0.00ms create many rows:137.70ms append rows to large table:14.70ms clear rows:15.70ms

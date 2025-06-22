@@ -1,0 +1,20 @@
+
+create rows: 44.70 ms
+replace all rows: 77.26 ms
+partial update: 380.40 ms
+select row: 1.02 ms
+swap rows: 36.90 ms
+remove row: 37.44 ms
+create many rows: 428.30 ms
+append rows to large table: 502.70 ms
+clear rows: 17.80 ms
+
+create rows: 34.70 ms
+replace all rows: 43.00 ms
+partial update: 384.84 ms
+select row: 0.80 ms
+swap rows: 33.18 ms
+remove row: 31.76 ms
+create many rows: 354.00 ms
+append rows to large table: 397.30 ms
+clear rows: 17.80 ms

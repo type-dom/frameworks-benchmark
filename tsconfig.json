@@ -1,0 +1,28 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/react"
+    },
+    {
+      "path": "./packages/solidjs"
+    },
+    {
+      "path": "./packages/svelte"
+    },
+    {
+      "path": "./packages/type-dom"
+    },
+    {
+      "path": "./packages/vue"
+    },
+    {
+      "path": "./packages/utils"
+    },
+    {
+      "path": "./packages/vanilla"
+    }
+  ]
+}
