@@ -1,7 +1,13 @@
-import App from './app.svelte';
+// import App from './app/Rows.svelte';
+//
+// const app = new App({
+//   target: document.getElementById('app')!,
+// });
+//
+// export default app;
+import { mount } from "svelte";
+import Main from "./app/Rows.svelte";
 
-const app = new App({
-  target: document.getElementById('app')!,
+mount(Main, {
+  target: document.querySelector("#main")!,
 });
-
-export default app;

@@ -34,7 +34,7 @@ export function VirtualList() {
   }
 
   return (
-    <div class='virtual-container' onScroll={handleScroll}>
+    <div className='virtual-container' onScroll={handleScroll}>
       {/* 虚拟总高度 */}
       <div style={{ height: `${totalHeight()}px` }}>
         {/* 可视区域内容 */}
@@ -48,7 +48,7 @@ export function VirtualList() {
           }}
         >
           {visibleItems().map(item => (
-            <div class={'list-item'} key={item}>
+            <div className={'list-item'} key={item}>
               <p>Item {item + 1}</p>
             </div>
           ))}

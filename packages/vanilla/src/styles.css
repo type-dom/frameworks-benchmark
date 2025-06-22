@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("./bootstrap.css");
+@import url("./main.css");
+
+
+
+.virtual-container {
+    height: 500px;
+    width: 300px;
+    border: 1px solid #ccc;
+    overflow: auto;
+    position: relative;
+    will-change: transform;
+}
+
+.list-item {
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #eee;
+    p {
+        margin: 0;
+    }
+}

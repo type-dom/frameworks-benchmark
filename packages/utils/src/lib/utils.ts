@@ -4,7 +4,7 @@ export function utils(): string {
 
 
 // 初始化数据模型
-export function generateRows(n) {
+export function generateRows(n: number) {
   const data = [];
   for (let i = 0; i < n; i++) {
     data.push({ id: i, text: `Row ${i}` });

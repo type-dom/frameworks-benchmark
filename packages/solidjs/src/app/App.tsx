@@ -1,6 +1,7 @@
 import {VirtualList} from "./VirtualList";
 import {Counter} from "./Counter";
 import {List} from './List';
+import {Rows} from './Rows'
 
 export function App() {
   return (
@@ -9,6 +10,7 @@ export function App() {
       <Counter />
       <VirtualList/>
       <List/>
+      <Rows/>
     </>
   );
 }

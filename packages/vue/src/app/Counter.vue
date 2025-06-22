@@ -1,9 +1,9 @@
 <template>
   <div>
-    <button id="counter-btn" @click="increment">
+    <button class="btn btn-primary btn-block" id="counter-btn" @click="increment">
       Count: {{ count }}
     </button>
-    <p>Update delay: {{ updateTime }} ms</p>
+    <p class="list-item">Update delay: {{ updateTime }} ms</p>
   </div>
 </template>
 

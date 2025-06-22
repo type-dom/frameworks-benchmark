@@ -2,6 +2,7 @@
 import Counter from "./Counter.vue";
 import VirtualList from "./VirtualList.vue";
 import List from './List.vue';
+import Rows from './Rows.vue';
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import List from './List.vue';
     <Counter />
     <VirtualList />
     <List/>
+    <Rows/>
   </div>
 </template>
 

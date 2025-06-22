@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client';
 import {Counter} from './counter';
 import {VirtualList} from './virtual-list';
 import {List} from './list';
+import {Rows} from './rows';
 
 // 页面组件
 export function App() {
@@ -13,6 +14,7 @@ export function App() {
       <Counter />
       <VirtualList />
       <List/>
+      <Rows/>
     </div>
   );
 }

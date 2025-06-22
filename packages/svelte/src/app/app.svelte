@@ -1,18 +1,14 @@
-<script context="module">
-  export const meta = {
-    title: 'Svelte Performance Test'
-  };
-</script>
-
 <script>
-  import Counter from './Counter.svelte';
-  import VirtualList from './VirtualList.svelte';
+// import Counter from './Counter.svelte';
+// import VirtualList from './VirtualList.svelte';
+<!--  import Rows from './Rows.svelte';-->
 </script>
 
 <div class="app-container">
   <h1>Svelte Performance Test</h1>
-  <Counter />
-  <VirtualList />
+<!--  <Counter />-->
+<!--  <VirtualList />-->
+<!--  <Rows />-->
 </div>
 
 <style>

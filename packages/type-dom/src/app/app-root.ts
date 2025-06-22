@@ -2,6 +2,7 @@ import {TypeRoot, Head, createStyle} from '@type-dom/framework';
 import {Counter} from "./Counter";
 import {VirtualList} from "./VirtualList";
 import {List} from "./List";
+import {Rows} from './Rows';
 
 export class AppRoot extends TypeRoot {
   className = 'AppRoot';
@@ -23,6 +24,7 @@ export class AppRoot extends TypeRoot {
       new Counter(),
       new VirtualList(),
       new List(),
+      new Rows(),
     )
   }
 }

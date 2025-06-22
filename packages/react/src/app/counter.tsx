@@ -26,10 +26,10 @@ export function Counter() {
 
   return (
     <div>
-      <button id="counter-btn" onClick={() => setCount(count + 1)}>
+      <button className={'btn btn-primary btn-block'} id="counter-btn" onClick={() => setCount(count + 1)}>
         Count: {count}
       </button>
-      <p>Update delay: {updateTime} ms</p>
+      <p className={'list-item'}>Update delay: {updateTime} ms</p>
     </div>
   );
 }

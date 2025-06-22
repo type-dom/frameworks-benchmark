@@ -29,6 +29,7 @@ export class Counter extends TypeDiv {
     // return { count, updateTime };
     this.addChildren(
       new Button({
+        class: 'btn btn-primary btn-block',
         attrObj: {
           id: 'counter-btn'
         },
@@ -40,6 +41,7 @@ export class Counter extends TypeDiv {
         }
       }),
       new P({
+        class: 'list-item',
         slot: computed(() => `Update time is ${updateTime.get()}`)
       })
     )
