@@ -1,0 +1,43 @@
+@type-dom/signals
+
+signal: 1613.13 KB
+computed: 2008.66 KB
+effect: 2387.27 KB
+tree: 7861.74 KB
+
+signal: 1080.39 KB
+computed: 2005.99 KB
+effect: 2947.85 KB
+tree: 7832.91 KB
+
+signal: 1652.38 KB
+computed: 2068.48 KB
+effect: 1970.38 KB
+tree: 7892.13 KB
+
+signal: 1470.13 KB
+computed: 2065.91 KB
+effect: 2449.17 KB
+tree: 7889.80 KB
+
+alient-signals
+
+signal: 1033.05 KB
+computed: 2649.25 KB
+effect: 3692.80 KB
+tree: 4630.54 KB
+
+signal: 958.51 KB
+computed: 2726.90 KB
+effect: 3623.84 KB
+tree: 4674.93 KB
+
+signal: 1010.55 KB
+computed: 2665.16 KB
+effect: 3717.79 KB
+tree: 4851.17 KB
+
+signal: 949.05 KB
+computed: 2694.98 KB
+effect: 3701.20 KB
+tree: 4534.79 KB

@@ -1,5 +1,5 @@
 Framework,Memory Usage (MB),Total Heap Size (MB), Task Duration
-react,2.9,5.79,0.23
-solid,1.78,3.54,0.064
-typedom,3.44,7.79,0.11
-vue,2.19,3.79,0.068
+react,3.66,8.67,0.499
+solid,2.09,3.67,0.14
+typedom,3.87,7.67,0.203
+vue,2.8,4.31,0.15

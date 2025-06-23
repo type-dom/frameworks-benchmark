@@ -1,8 +1,10 @@
 {
-  "name": "@frameworks/source",
+  "name": "@frameworks-benchmark/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "serve": "nx run-many -t serve"
+  },
   "private": true,
   "devDependencies": {
     "@nx/angular": "^21.1.2",
@@ -46,6 +48,10 @@
   "dependencies": {
     "@type-dom/framework": "^0.4.2",
     "@type-dom/signals": "^0.6.1",
+    "@types/lodash": "^4.17.18",
+    "alien-signals": "^2.0.5",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-window": "^1.8.11",

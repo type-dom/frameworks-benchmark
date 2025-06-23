@@ -40,7 +40,7 @@ async function analyzeMemory(url, framework) {
   const metrics = await page.metrics();
 
   // 提取内存相关指标
-  // console.warn('Memory metrics:', metrics);
+  console.warn('Memory metrics:', metrics);
   const memoryUsageMB = parseFloat((metrics.JSHeapUsedSize / 1024 / 1024).toFixed(2));
   const totalHeapSizeMB = parseFloat((metrics.JSHeapTotalSize / 1024 / 1024).toFixed(2));
   // const heapLimitMB = parseFloat((metrics.JSHeapSizeLimit / 1024 / 1024).toFixed(2));
