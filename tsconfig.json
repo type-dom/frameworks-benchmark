@@ -4,25 +4,28 @@
   "files": [],
   "references": [
     {
-      "path": "./packages/react"
+      "path": "./reactivity"
     },
     {
-      "path": "./packages/solidjs"
+      "path": "./frameworks/type-dom"
     },
     {
-      "path": "./packages/svelte"
+      "path": "./frameworks/solidjs"
     },
     {
-      "path": "./packages/type-dom"
+      "path": "./frameworks/vanilla"
     },
     {
-      "path": "./packages/vue"
+      "path": "./frameworks/svelte"
     },
     {
-      "path": "./packages/utils"
+      "path": "./frameworks/react"
     },
     {
-      "path": "./packages/vanilla"
+      "path": "./frameworks/utils"
+    },
+    {
+      "path": "./frameworks/vue"
     }
   ]
 }

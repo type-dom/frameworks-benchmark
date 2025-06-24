@@ -3,16 +3,16 @@
 ## 项目结构概览
     
     frameworks/
-    ├── packages/           # 多框架实现目录
+    ├── packages/            # 多框架实现目录
     │   ├── type-dom/        # 自定义框架实现
     │   ├── solidjs/         # SolidJS 2.0 实现
     │   ├── svelte/          # Svelte 实现
     │   ├── vue/             # Vue 3 实现
     │   └── react/           # React 18 实现
-    ├── tools/              # 开发工具集
-    ├── README.md           # 项目说明
-    ├── package.json        # 根工作区配置
-    └── nx.json             # Nx Monorepo 配置
+    ├── tools/               # 开发工具集
+    ├── README.md            # 项目说明
+    ├── package.json         # 根工作区配置
+    └── nx.json              # Nx Monorepo 配置
 
 
 ## 框架实现对比
