@@ -4,5 +4,8 @@
   "private": true,
   "nx": {
     "name": "svelte"
+  },
+  "devDependencies": {
+    "svelte": "^5.34.7"
   }
 }

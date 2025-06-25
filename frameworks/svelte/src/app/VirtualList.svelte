@@ -1,10 +1,24 @@
 <script>
-    import { createSignal } from 'svelte';
+    import { state } from 'svelte';
 
-    let data = new Array(10000).fill(null).map((_, index) => ({ index }));
-    let [scrollTop, setScrollTop] = createSignal(0);
-    let [start, setStart] = createSignal(0);
-    let [end, setEnd] = createSignal(20);
+    const data = Array(10000).fill(null).map((_, index) => ({ index }));
+
+    let scrollTop = state(0);
+    let start = state(0);
+    let end = state(20);
+
+    // 计算可见区域的开始和结束索引
+    $: {
+        const itemHeight = 50;
+        const viewStart = Math.floor(scrollTop / itemHeight);
+        const viewEnd = viewStart + 20; // 假设可视区域显示 20 条
+
+        start = viewStart;
+        end = Math.min(viewEnd, data.length); // 防止超出范围
+    }
+
+    // 占位高度
+    // $: placeholderHeight = data.length * 50;
 
     // 滚动事件处理
     function handleScroll(event) {
@@ -22,10 +36,10 @@
     }
 
     // 设置占位高度
-    $: placeholderHeight = data.length * 50;
+    // $: placeholderHeight = data.length * 50;
 </script>
 
-<div class="scroll-container" bind:total={scrollTop} on:scroll={handleScroll}>
+<div class="scroll-container" on:scroll={handleScroll}>
     <!-- 占位元素 -->
     <div style="height: {placeholderHeight}px"></div>
 

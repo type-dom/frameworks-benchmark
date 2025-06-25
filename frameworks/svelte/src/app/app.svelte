@@ -1,14 +1,14 @@
 <script>
-// import Counter from './Counter.svelte';
-// import VirtualList from './VirtualList.svelte';
-<!--  import Rows from './Rows.svelte';-->
+import Counter from './Counter.svelte';
+import VirtualList from './VirtualList.svelte';
+import Rows from './Rows.svelte';
 </script>
 
 <div class="app-container">
   <h1>Svelte Performance Test</h1>
-<!--  <Counter />-->
-<!--  <VirtualList />-->
-<!--  <Rows />-->
+  <Counter />
+  <VirtualList />
+  <Rows />
 </div>
 
 <style>

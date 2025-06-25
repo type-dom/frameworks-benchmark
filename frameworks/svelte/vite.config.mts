@@ -1,6 +1,6 @@
 /// <reference types='vitest' />
 import { defineConfig } from 'vite';
-// import { svelte } from '@sveltejs/vite-plugin-svelte';
+import { svelte } from '@sveltejs/vite-plugin-svelte';
 
 export default defineConfig(() => ({
   root: __dirname,
@@ -15,7 +15,7 @@ export default defineConfig(() => ({
   },
   plugins: [
     //... other plugins
-    // svelte(), // Add this line
+    svelte(), // Add this line
   ],
   // Uncomment this if you are using workers.
   // worker: {
@@ -25,8 +25,8 @@ export default defineConfig(() => ({
     outDir: './dist',
     emptyOutDir: true,
     reportCompressedSize: true,
-    commonjsOptions: {
-      transformMixedEsModules: true,
-    },
+    // commonjsOptions: {
+    //   transformMixedEsModules: true,
+    // },
   },
 }));
